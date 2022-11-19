@@ -1,19 +1,20 @@
-import { Link } from 'react-router-dom';
-
-import logo from '../logo.svg';
+import React from 'react'; // eslint-disable-line
 
 function Home() {
   return (
     <header className="app-header">
-      <img src={logo} className="app-logo" alt="logo" />
+      <p>
+        Try change and save blocklet preference in blocklet server dashboard or{' '}
+        <a href="/.well-known/service/admin/configuration" target="_blank">
+          blocklet dashboard
+        </a>{' '}
+        and refresh this page
+      </p>
       <pre style={{ textAlign: 'left' }}>
-        <code>window.blocklet = {JSON.stringify(window.blocklet, null, 2)}</code>
+        <code>window.blocklet.preferences = {JSON.stringify(window.blocklet.preferences, null, 2)}</code>
       </pre>
-      <Link className="app-link" to="/about">
-        About
-      </Link>
-      <a className="app-link" href="https://docs.arcblock.io/abtnode/" target="_blank" rel="noopener noreferrer">
-        Learn Blocklet
+      <a className="app-link" href="https://developer.blocklet.io/docs/" target="_blank" rel="noopener noreferrer">
+        View Documentation
       </a>
     </header>
   );

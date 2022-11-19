@@ -1,24 +1,15 @@
 html,
 body {
-  padding: 0;
+  padding: 32px;
   margin: 0;
 }
-.app {
-  text-align: center;
-}
 
-.app-logo {
-  height: 10vmin;
-  pointer-events: none;
+.app {
 }
 
 .app-header {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1.5rem;
 }
 
 pre {
