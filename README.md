@@ -11,7 +11,7 @@ A typical blocklet preference workflow include following steps:
 
 ## Launch on Blocklet Server
 
-[![Launch on Blocklet Server](https://assets.arcblock.io/icons/launch_on_blocklet_server.svg)](https://install.arcblock.io/launch?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fpreferences-demo%2Freleases%2Fdownload%2Fv0.1.1%2Fblocklet.json)
+[![Launch on Blocklet Server](https://assets.arcblock.io/icons/launch_on_blocklet_server.svg)](https://install.arcblock.io/launch?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fpreferences-demo%2Freleases%2Fdownload%2Fv0.1.2%2Fblocklet.json)
 
 ## Learn More
 
