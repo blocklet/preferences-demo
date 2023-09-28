@@ -7,13 +7,14 @@ group: dapp
 did: z8iZoq8hf2quXYhdpX4om682Nv67S7QgWsCQr
 main: api/index.js
 author:
-  name: wangshijun
-  email: shijun@arcblock.io
+  name: ArcBlock
+  email: blocklet@arcblock.io
+  url: https://github.com/blocklet
 repository:
   type: git
   url: git+https://github.com/blocklet/preferences-demo.git
-specVersion: 1.2.7
-version: 0.1.1
+specVersion: 1.2.8
+version: 0.1.2
 logo: logo.png
 files:
   - dist
@@ -25,9 +26,9 @@ interfaces:
     prefix: '*'
     port: BLOCKLET_PORT
     protocol: http
-community: ''
-documentation: ''
-homepage: ''
+community: https://community.arcblock.io
+documentation: https://developer.blocklet.io
+homepage: https://github.com/blocklet/preferences-demo
 license: ''
 payment:
   price: []
@@ -44,6 +45,7 @@ environments: []
 capabilities:
   clusterMode: false
   component: true
+  navigation: true
 screenshots:
   - builder.png
   - home.png
